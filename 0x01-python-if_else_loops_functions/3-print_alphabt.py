@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for n in range(97, 123):
-    if (n == 101 or n == 113):
-        continue
-    print("{}".format(chr(n)), end="")
+# Author - Bamidele Adefolaju
+for letter in range(97, 123):
+    if chr(letter) != 'q' and chr(letter) != 'e':
+        print("{}".format(chr(letter)), end="")
